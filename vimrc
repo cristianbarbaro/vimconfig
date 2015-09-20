@@ -20,18 +20,19 @@ runtime! debian.vim
 ""  syntax on
 ""  set background=dark
 "  "colorscheme peaksea
-""  colorscheme atom-dark-256
+"  colorscheme atom-dark-256
   "colorscheme elflord
 "endif
 
-syntax on 
+syntax on
+set t_Co=256
 set background=dark
 "colorscheme jellybeans
 colorscheme atom-dark-256
 "colorscheme benlight
 "colorscheme hybrid
 "colorscheme monokai
-"colorscheme CandyPaper
+"colorscheme spacegray
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -67,7 +68,7 @@ set smartindent
 "set expandtab
 "set shiftwidth=4
 "set softtabstop=4
-set t_Co=256
+"set t_Co=256
 
 set encoding=utf-8
 
