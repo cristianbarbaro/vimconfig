@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
+Plugin 'mzlogin/vim-markdown-toc'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
