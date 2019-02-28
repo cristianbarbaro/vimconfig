@@ -51,6 +51,9 @@ set number		" Enumera las lineas.
 set smartindent
 set encoding=utf-8
 
+" Define Rpdf command: a converter pdf to txt for Vim
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
